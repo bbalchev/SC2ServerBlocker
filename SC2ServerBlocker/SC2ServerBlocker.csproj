@@ -60,6 +60,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="DefaultServers.cs" />
     <Compile Include="SC2FirewallManager.cs" />
     <Compile Include="Server.cs" />
     <Compile Include="ServerFactory.cs" />
@@ -102,6 +103,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Servers\*.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Starcraft-2-simple.ico" />

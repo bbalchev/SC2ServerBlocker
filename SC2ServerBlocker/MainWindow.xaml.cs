@@ -39,7 +39,8 @@ namespace SC2ServerBlocker
         private void OnServerBlocked(object sender, RoutedEventArgs e)
         {
             var server = serverList.SelectedItem as Server;
-            Firewall.BlockServer(server);
+            var serverToBlock = ServerFactory.LoadServerForBlock(server.Name) ?? server;
+            Firewall.BlockServer(serverToBlock);
             MessageBox.Show(String.Format("{0} game servers are blocked.", server.Name), "Server blocked",
                 MessageBoxButton.OK, MessageBoxImage.Information);
         }
