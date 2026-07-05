@@ -1,32 +1,64 @@
-# Prerequisites
+## Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+## OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+## Prerequisites (legacy)
 *.d
 
-# Compiled Object files
+## Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
 
-# Precompiled Headers
+## Precompiled Headers
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
+## Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
-# Fortran module files
+## Fortran module files
 *.mod
 *.smod
 
-# Compiled Static libraries
+## Compiled Static libraries
 *.lai
 *.la
 *.a
 *.lib
 
-# Executables
+## Executables (except tracked build outputs if any)
 *.exe
 *.out
 *.app

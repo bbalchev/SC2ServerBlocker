@@ -1,9 +1,13 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC2ServerBlocker.Core", "SC2ServerBlocker.Core\SC2ServerBlocker.Core.csproj", "{B2E8F4A1-7C3D-4E9B-8F1A-2D6C9E5B4A07}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC2ServerBlocker", "SC2ServerBlocker\SC2ServerBlocker.csproj", "{6B43EB8C-9A86-44E2-845B-9864FC24C61F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC2ServerBlocker.Tests", "SC2ServerBlocker.Tests\SC2ServerBlocker.Tests.csproj", "{A1D4E8F2-3C7B-4F6A-9D2E-1B5C8E4F7A03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2E8F4A1-7C3D-4E9B-8F1A-2D6C9E5B4A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E8F4A1-7C3D-4E9B-8F1A-2D6C9E5B4A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E8F4A1-7C3D-4E9B-8F1A-2D6C9E5B4A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E8F4A1-7C3D-4E9B-8F1A-2D6C9E5B4A07}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6B43EB8C-9A86-44E2-845B-9864FC24C61F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6B43EB8C-9A86-44E2-845B-9864FC24C61F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B43EB8C-9A86-44E2-845B-9864FC24C61F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B43EB8C-9A86-44E2-845B-9864FC24C61F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1D4E8F2-3C7B-4F6A-9D2E-1B5C8E4F7A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D4E8F2-3C7B-4F6A-9D2E-1B5C8E4F7A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D4E8F2-3C7B-4F6A-9D2E-1B5C8E4F7A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1D4E8F2-3C7B-4F6A-9D2E-1B5C8E4F7A03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
